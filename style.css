@@ -10,6 +10,7 @@ body{
 	padding:0px 20px;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	background:#fdfdfd;
 
 }
 
@@ -39,6 +40,10 @@ h2{
 	height:200px;
 	background-image:linear-gradient(#eeaeca, #94bbe9);
 	border-radius:10px;
+}
+
+.banner h1{
+	padding-top:20px;
 }
 
 .container1{
