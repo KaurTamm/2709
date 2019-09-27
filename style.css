@@ -7,7 +7,6 @@
 
 body{
 	margin:0;
-	padding:20px 20px;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	background:#fdfdfd;
@@ -17,6 +16,10 @@ body{
 h1,
 h2{
     font-family: 'Montserrat', sans-serif;
+}
+
+.page{
+	padding:0px 20px;
 }
 
 .nav{
@@ -89,4 +92,10 @@ h2{
 
 .container3 p{
 	padding:0px 50px;
+}
+
+footer{
+	position:relative;
+	background-image:linear-gradient(#eeaeca, #94bbe9);
+	height:100px;
 }
