@@ -106,8 +106,10 @@ footer{
 
 @media only screen and (max-width:1180px){
 	.nav{
-	
 		flex-wrap:wrap;
+	}
+	.menuitem{
+	    flex-wrap:wrap;
 	}
 	.imagecontainer{
 		flex-wrap:wrap;
@@ -124,12 +126,13 @@ footer{
 	.container3{
 		flex-wrap:wrap;
 		justify-content:center;
+		padding:0px 0px;
 	}
 	.container3 p{
 		padding:0px 10px;
 	}
 	.container3 img{
-		width:400px;
+		width:80vw;
 		height:300px;
 	}
 	.phone{
