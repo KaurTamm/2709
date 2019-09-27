@@ -31,3 +31,11 @@ h2{
 .menuitem h2{
 	padding:0px 50px;
 }
+
+.banner{
+	position:relative;
+	padding:0px 20px;
+	height:200px;
+	background-image:linear-gradient(#eeaeca, #94bbe9);
+	border-radius:10px;
+}
