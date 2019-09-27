@@ -40,3 +40,27 @@ h2{
 	background-image:linear-gradient(#eeaeca, #94bbe9);
 	border-radius:10px;
 }
+
+.container1{
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align:center;
+}
+
+.container1 h2{
+	width:100%;
+}
+
+.imagecontainer{
+	position:relative;
+	display:flex;
+}
+
+.imagecontainer img{
+	height:300px;
+	width:300px;
+	border-radius:10px;
+	margin:50px;
+}
