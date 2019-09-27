@@ -131,10 +131,6 @@ footer{
 	.container3 p{
 		padding:0px 10px;
 	}
-	.container3 img{
-		width:80vw;
-		height:300px;
-	}
 	.phone{
 		flex-direction:column-reverse;
 		align-items:center;
