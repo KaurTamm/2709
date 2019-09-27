@@ -1,3 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap');
+
 *{
 	box-sizing:border-box;
 }
+
+body{
+	margin:0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background:#fdfdfd;
+
+}
+
+h1,
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page{
+	padding:0px 50px;
+}
+
+.nav{
+	position:relative;
+	display:flex;	
+	justify-content:space-around;
+}
+
+.menuitem{
+	position:relative;
+	display:flex;
+}
+
+.menuitem h2{
+	padding:0px 50px;
+}
+
+.banner{
+	position:relative;
+	padding:0px 20px;
+	height:200px;
+	background-image:linear-gradient(#eeaeca, #94bbe9);
+	border-radius:10px;
+}
+
+.banner h1{
+	padding-top:20px;
+}
+
+.container1{
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align:center;
+}
+
+.container1 h1{
+	width:100%;
+	padding-top:30px;
+}
+
+.imagecontainer{
+	position:relative;
+	display:flex;
+}
+
+.imagecontainer img{
+	height:300px;
+	width:300px;
+	border-radius:10px;
+	margin:44px;
+}
+
+.container2 h1{
+	text-align:center;
+	padding-top:30px;
+}
+
+.container3{
+	position:relative;
+	display:flex;
+	padding:50px 50px;
+}
+
+.container3 img{
+	height:400px;
+	width:500px;
+	border-radius:10px;
+}
+
+.container3 p{
+	padding:0px 50px;
+}
+
+footer{
+	position:relative;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-image:linear-gradient(#eeaeca, #94bbe9);
+	height:100px;
+}
+
+@media only screen and (max-width:1180px){
+
+}
+
